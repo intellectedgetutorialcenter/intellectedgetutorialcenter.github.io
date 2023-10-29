@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellect Edge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo(transparent).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tutor.html">TUTOR</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Tutors</h1>
+    </section>
+
+
+
+    <!-- course -->
+    <section class=" course">
+        <h1>Batch 1 Tutors</h1>
+        <p>These are the tutors who are ready to teach and assist you!</p>
+        <div class="row">
+            <div class="campus-col">
+                <a href="tutors/Artuz/artuz.html">
+                    <img src="pictures/Artuz.png">
+                    <div class="layer">
+                        <h3>John Christian Artuz</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="tutors/Bartolome/bartolome.html">
+                    <img src="pictures/Bartolome.png">
+                    <div class="layer">
+                        <h3>Neil Andrew Bartolome</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="tutors/Bartolome/bartolome.html">
+                    <img src="pictures/Borbe.png">
+                    <div class="layer">
+                        <h3>John Robert Borbe</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <a href="tutors/Cabaltera/cabaltera.html">
+                    <img src="pictures/Cabaltera.png">
+                    <div class="layer">
+                        <h3>John Benneth Cabaltera</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="tutors/Carizo/carizo.html">
+                    <img src="pictures/Carizo.png">
+                    <div class="layer">
+                        <h3>Eliseo Travizonda Carizo</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="tutors/Hernandez/hernandez.html">
+                    <img src="pictures/Hernandez.png">
+                    <div class="layer">
+                        <h3>Noel Chris Hernandez</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <a href="tutors/Nieva/nieva.html">
+                    <img src="pictures/Nieva.png">
+                    <div class="layer">
+                        <h3>Lanz Louie Nieva</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="campus-col">
+                <a href="tutors/Sabila/sabila.html">
+                    <img src="pictures/Sabila.png">
+                    <div class="layer">
+                        <h3>John Dominique Sabila</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+
+        <!-- Toggle Menu JS -->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+</body>
+
+</html>
