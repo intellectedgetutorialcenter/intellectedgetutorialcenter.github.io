@@ -216,7 +216,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(226, 0, 0, 0.7);
 }
 
 .layer h3 {
@@ -397,12 +397,20 @@ h3 {
 
 .about-col p{
     padding: 15px 0 25px;
+    text-align: justify;}
+
+li {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
 }
 
-.about-col h2{
-    padding-top: 0;
-    text-align: center;
-    color: #555;
+li:not(ul li) {
+    color: #000000;
+    font-weight: bold;
 }
 
 .red-btn{
@@ -429,7 +437,6 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
-
 .elem h2{
     color: #222;
     font-weight: 600;
