@@ -399,6 +399,12 @@ h3 {
     padding: 15px 0 25px;
 }
 
+.about-col h2{
+    padding-top: 0;
+    text-align: center;
+    color: #555;
+}
+
 .red-btn{
     border: 1px solid #F8A220;
     background: transparent;
