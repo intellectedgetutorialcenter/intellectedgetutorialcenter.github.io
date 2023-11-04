@@ -80,17 +80,17 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #FFA500;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
+    background: #FFA500;
     position: relative;
     cursor: pointer;
 }
 
 .hero-btn:hover {
-    border: 1px solid #F8A220;
-    background: #F8A220;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
     transition: 1s;
 }
 
@@ -233,8 +233,99 @@ h3 {
 }
 
 .layer:hover h3 {
-    bottom: 49%;
+    bottom: 60%;
     opacity: 1;
+}
+
+.layer h4 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h4 {
+    bottom: 20%;
+    opacity: 1;
+}
+
+.layer2 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer2:hover {
+    background: #e5e500;
+}
+
+.layer2 h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer2:hover h3 {
+    bottom: 60%;
+    opacity: 1;
+}
+
+.layer2 h4 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer2:hover h4 {
+    bottom: 20%;
+    opacity: 1;
+}
+
+
+.fab {
+    background-color: #cf4a4a;
+    color: #fff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.fab:hover {
+    background-color: #e58e8e;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* facilities */
@@ -325,14 +416,14 @@ h3 {
     padding: 100px 0;
 }
 
-.cta h1 {
+.cta h2 {
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
 }
 
 @media(max-width: 700px) {
-    .cta h1 {
+    .cta h2 {
         font-size: 24px;
     }
 }
@@ -349,13 +440,39 @@ h3 {
     margin-top: 20px;
     font-weight: 600;
 }
-
-.icons .fa {
-    color: #F8A220;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
+.container {
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.container {
+    margin: 0 auto;
+}
+
+  .btn {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid #d24343;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: #d24343;
+    color: #ffffff;
+  }
+
+  .btn-lg {
+    font-size: 16px;
+  }
+
+  .btn-block {
+    width: 100%;
+  }
 
 /* about us page */
 .sub-header {
@@ -589,4 +706,8 @@ li:not(ul li) {
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+.icons img{
+    width: 100px;
+    height: 50px;
 }
