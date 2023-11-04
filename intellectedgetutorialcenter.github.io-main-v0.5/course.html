@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intellect Edge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/light-bulb.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo(transparent).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="tutor.html">TUTORS</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()""></i>
+        </nav>
+        <h1>Our Certificate & Online Programs</h1>
+    </section>
+
+    <section class="content">
+                <div class="column">
+                    <h1>Here's What We Have to Offer!</h1>
+
+                    <div class="elem">
+                        <h3 class="split-text">
+                            <span>Elementary Level</span>
+                            <span>Tutors Available</span>
+                        </h3>
+                        <div>
+                            <span>English</span>
+                            <span>2</span>
+                        </div>
+                        <div>
+                            <span>Science</span>
+                            <span>2</span>
+                        </div>
+                        <div>
+                            <span>Mathematics</span>
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <div class="highschool">
+                        <h3 class="split-text">
+                            <span>High School Level</span>
+                            <span>Tutors Available</span>
+                        </h3>
+                        <div>
+                            <span>English</span>
+                            <span>3</span>
+                        </div>
+                        <div>
+                            <span>Science</span>
+                            <span>3</span>
+                        </div>
+                        <div>
+                            <span>Mathematics</span>
+                            <span>4</span>
+                        </div>
+                        <div>
+                            <span>Physics</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Basic Computer Literacy</span>
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="college">
+                        <h3 class="split-text">
+                            <span>College Level</span>
+                            <span>Tutors Available</span>
+                        </h3>
+                        <div>
+                            <span>English</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>General Mathematics</span>
+                            <span>2</span>
+                        </div>
+                        <div>
+                            <span>Geometry</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Pre-Calculus</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Calculus</span>
+                            <span>2</span>
+                        </div>
+                        <div>
+                            <span>Physics</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Computer Science</span>
+                            <span>3</span>
+                        </div>
+                        <div>
+                            <span>Information Technology</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Programming Fundamentals</span>
+                            <span>4</span>
+                        </div>
+                        <div>
+                            <span>Civil Engineering</span>
+                            <span>3</span>
+                        </div>
+                        <div>
+                            <span>Electronics Engineering</span>
+                            <span>1</span>
+                        </div>
+                        <div>
+                            <span>Applied Mathematics</span>
+                            <span>1</span>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Intellect Edge is a platform dedicated to providing quality learning service through flexible means.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/IETutorialCenter" target="_blank"><img src="images/fb_logo.png"></a>
+        </div>
+    </section>
+
+
+    <!-- Toggle Menu JS -->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
